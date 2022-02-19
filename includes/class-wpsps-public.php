@@ -42,15 +42,6 @@ class WPSPS_CP {
 		wp_enqueue_script('wpsps-slick-js',WPSPS_URL.'/assets/js/slick.min.js',array('jquery'),WPSPS_VERSION,true);
 		wp_enqueue_script('wpsps-js-js',WPSPS_URL.'/assets/js/wpsps-js.js',array('jquery'),WPSPS_VERSION,true);
 
-		// wp_localize_script('xoo-cp-js','xoo_cp_localize',array(
-		// 	'adminurl'     		=> admin_url().'admin-ajax.php',
-		// 	'homeurl' 			=> get_bloginfo('url'),
-		// 	'wc_ajax_url' 		=> WC_AJAX::get_endpoint( "%%endpoint%%" ),
-		// 	'reset_cart'		=> $xoo_cp_gl_resetbtn_value
-		// ));
-
-		// wp_add_inline_style('xoo-cp-style',self::get_inline_styles());
-
 	}
 
 	public function slider_shortcode() {
